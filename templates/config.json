@@ -36,6 +36,15 @@
       "startCommand": "yarn dev",
       "ignore": ["**.png"],
       "tag": ["project"]
+    },
+    {
+      "name": "go-framework",
+      "npmName": "@msfe/go-framework",
+      "version": "latest",
+      "installCommand": "go mod tidy",
+      "startCommand": "go run ./cmd/web/web.go",
+      "ignore": ["**.png"],
+      "tag": ["project"]
     }
   ]
 }
