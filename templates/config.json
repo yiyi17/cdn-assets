@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": "react-umi4",
+      "npmName": "@msfe/react-umi4-temp",
+      "version": "latest",
+      "type": "normal",
+      "installCommand": "yarn install",
+      "startCommand": "yarn start",
+      "ignore": ["**/public/*", "**.png"],
+      "tag": ["project"]
+    },
+    {
+      "name": "react-vite",
+      "npmName": "@msfe/react-vite-temp",
+      "version": "latest",
+      "installCommand": "yarn install",
+      "startCommand": "yarn start",
+      "ignore": ["**/public/*", "**.png"],
+      "tag": ["project"]
+    },
+    {
+      "name": "react-component",
+      "npmName": "@msfe/react-component-temp",
+      "version": "latest",
+      "installCommand": "yarn install",
+      "startCommand": "yarn start",
+      "ignore": ["**.png"],
+      "tag": ["component"]
+    },
+    {
+      "name": "eggjs-framework",
+      "npmName": "@msfe/eggjs-framework",
+      "version": "latest",
+      "installCommand": "yarn install",
+      "startCommand": "yarn dev",
+      "ignore": ["**.png"],
+      "tag": ["project"]
+    }
+  ]
+}
