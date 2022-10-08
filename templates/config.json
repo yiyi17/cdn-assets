@@ -41,8 +41,8 @@
       "name": "go-framework",
       "npmName": "@msfe/go-framework",
       "version": "latest",
-      "installCommand": "echo go mod tidy 安装",
-      "startCommand": "echo go run ./cmd/web/web.go 启动项目",
+      "installCommand": "go mod tidy 安装",
+      "startCommand": "go run ./cmd/web/web.go 启动项目",
       "ignore": ["**.png"],
       "tag": ["project"]
     }
