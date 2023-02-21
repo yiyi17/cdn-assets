@@ -45,6 +45,15 @@
       "startCommand": "go run ./cmd/web/web.go",
       "ignore": ["**.png"],
       "tag": ["project"]
+    },
+    {
+      "name": "vue3-vite-pinia",
+      "npmName": "@msfe/vue3-vite-pinia",
+      "version": "latest",
+      "installCommand": "yarn install",
+      "startCommand": "yarn dev",
+      "ignore": ["**.png"],
+      "tag": ["project"]
     }
   ]
 }
