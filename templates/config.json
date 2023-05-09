@@ -7,7 +7,7 @@
       "type": "normal",
       "installCommand": "pnpm install",
       "startCommand": "pnpm -F app1-webapp dev",
-      "ignore": ["**/public/*", "**.png"],
+      "ignore": ["**.png"],
       "tag": ["project"]
     },
      {
