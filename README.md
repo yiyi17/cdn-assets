@@ -8,5 +8,5 @@ https://cdn.jsdelivr.net/gh/yiyi17/cdn-assets/文件路径
 ## 刷新 CDN
 
 //仅用于刷新返回status: ok，即可
-https://purge.jsdelivr.net/gh/yiyi17/cdn-assets@main/templates/config.json
+https://purge.jsdelivr.net/gh/yiyi17/cdn-assets/templates/config.json
 
