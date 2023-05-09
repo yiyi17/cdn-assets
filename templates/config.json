@@ -1,5 +1,25 @@
 {
   "data": [
+     {
+      "name": "monorepo-project",
+      "npmName": "@msfe/monorepo-project",
+      "version": "latest",
+      "type": "normal",
+      "installCommand": "pnpm install",
+      "startCommand": "pnpm -F app1-webapp dev",
+      "ignore": ["**/public/*", "**.png"],
+      "tag": ["project"]
+    },
+     {
+      "name": "monorepo-app",
+      "npmName": "@msfe/monorepo-app",
+      "version": "latest",
+      "type": "normal",
+      "installCommand": "pnpm install",
+      "startCommand": "pnpm run dev",
+      "ignore": ["**/public/*", "**.png"],
+      "tag": ["project"]
+    },
     {
       "name": "react-umi4",
       "npmName": "@msfe/react-umi4-temp",
