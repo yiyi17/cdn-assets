@@ -20,6 +20,16 @@
       "ignore": ["**/public/*", "**.png"],
       "tag": ["project"]
     },
+      {
+      "name": "midway-app",
+      "npmName": "@msfe/midway-template",
+      "version": "latest",
+      "type": "normal",
+      "installCommand": "pnpm install",
+      "startCommand": "pnpm run dev",
+      "ignore": ["**/public/*", "**.png"],
+      "tag": ["project"]
+    },
     {
       "name": "react-umi4",
       "npmName": "@msfe/react-umi4-temp",
