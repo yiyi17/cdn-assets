@@ -1,5 +1,6 @@
 {
   "data": [
+      
      {
       "name": "monorepo-project",
       "npmName": "@msfe/monorepo-project",
@@ -20,8 +21,18 @@
       "ignore": ["**/public/*", "**.png"],
       "tag": ["project"]
     },
+     {
+      "name": "service-app",
+      "npmName": "@msfe/midway-service-template",
+      "version": "latest",
+      "type": "normal",
+      "installCommand": "pnpm install",
+      "startCommand": "pnpm run dev",
+      "ignore": ["**.png"],
+      "tag": ["project"]
+    },
       {
-      "name": "midway-app",
+      "name": "bff-app",
       "npmName": "@msfe/midway-template",
       "version": "latest",
       "type": "normal",
